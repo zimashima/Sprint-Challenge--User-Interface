@@ -67,6 +67,9 @@ p {
     line-height: 1.4;
 }
 
+.contactus{
+    max-width: 800px;
+}
 
 .container {
     width: 800px;
@@ -193,7 +196,7 @@ footer nav a {
     border: 2px solid black;
     width: 150px;
 }
-.content-row a:visited, .content-row a{
+.main-part a:visited, .main-part a{
     text-decoration: none;
     color: black;
 }
@@ -202,9 +205,14 @@ hr{
     border: 1px dashed black
 }
 
-.top-about{
+.top-part{
     padding: 20px;
 }
-.bottom-about{
+
+.bottom-part{
     padding: 20px 10px 20px 10px;
+}
+
+form{
+    padding: 50px;
 }
