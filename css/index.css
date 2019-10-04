@@ -90,6 +90,7 @@ header nav a{
     text-align: center;
 }
 
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -149,6 +150,9 @@ footer {
     width: 100%;
     background: black;
     margin-bottom: 50px;
+    animation-name: bw;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 footer nav {
@@ -216,3 +220,9 @@ hr{
 form{
     padding: 50px;
 }
+
+@keyframes bw {
+    0% {background-color: black; color: white}
+    50% {background-color: darkgray; color: white}
+    100% {background-color: black; color: white}
+  }
