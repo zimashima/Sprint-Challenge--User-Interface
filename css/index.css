@@ -57,7 +57,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 20px;
+    margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -66,19 +67,20 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
-nav{
+header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
 }
 
-nav a{
+header nav a{
     color:black;
     text-decoration: none;
     margin: 20px;
@@ -148,11 +150,12 @@ footer {
 
 footer nav {
     width: 60%;
-    height: 50%;
+    height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
+    padding: 10px;
 }
 
 footer nav a {
@@ -170,3 +173,38 @@ footer nav a {
 #eight{ background-color: hotpink;}
 #nine{ background-color: indigo;}
 #ten{ background-color: dodgerblue;}
+
+.content-row{
+    display: flex;
+    justify-content: space-around;
+}
+.content-row div{
+    width: 47%;
+    padding: 20px 0 10px 0;
+}
+
+#bttn{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    border: 2px solid black;
+    width: 150px;
+}
+.content-row a:visited, .content-row a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    border: 1px dashed black
+}
+
+.top-about{
+    padding: 20px;
+}
+.bottom-about{
+    padding: 20px 10px 20px 10px;
+}
